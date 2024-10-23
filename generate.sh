@@ -36,6 +36,8 @@ new_patch=$((version_parts[2] + 1))
 new_version="${version_parts[0]}.${version_parts[1]}.$new_patch"
 sed -i '' "s/\"version\": \"$current_version\"/\"version\": \"$new_version\"/" package.json
 
+rm -rf protos
+
 git add .
 
 git commit -m "Update protos"
