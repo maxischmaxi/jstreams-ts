@@ -15,7 +15,7 @@ else
   mkdir protos
 fi
 
-mv jstreams-server/protos/*.proto protos/
+mv jstreams-server/**/*.proto protos/
 
 rm -rf jstreams-server
 
