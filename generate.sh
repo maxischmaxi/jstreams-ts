@@ -1,5 +1,7 @@
 npm ci
 
+find . -type f \( -name "*.js" -o -name "*.d.ts" \) -exec rm -v {} \;
+
 if [ -d "./jstreams-server" ]; then
   rm -rf jstreams-server
 fi
