@@ -1,0 +1,1 @@
+# Jstreams Typescript Declarations
