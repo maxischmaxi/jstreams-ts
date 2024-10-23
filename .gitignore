@@ -1,3 +1,4 @@
-node_modules
-protos
-gen
+./node_modules
+*.tgz
+./protos
+./gen

@@ -1,0 +1,6 @@
+README.md
+*.tgz
+node_modules
+package-lock.json
+tsconfig.json
+generate.sh
